@@ -1,5 +1,8 @@
 #first-section{
+    display: flex;
+    background-color: white;
     padding: 15px 30px;
+    height: 60px;
 }
 
 #displaybtn{

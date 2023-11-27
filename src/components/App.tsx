@@ -136,11 +136,14 @@ const App=()=>{
 
 
 
-    return <div id={"homepage"} >
+    return <>
         <FirstSection GroupingOption={GroupingOption} setGrouping={setGrouping} OrderingOption={OrderingOption} setOrdering={setOrdering}/>
-        <SecondSection sectionData={sectionData} GroupingOption={GroupingOption} IdNameMapping={IdNameMapping} Priority={Priority}/>
+        <div id={"dataDiv"}>
+            <SecondSection sectionData={sectionData} GroupingOption={GroupingOption} IdNameMapping={IdNameMapping} Priority={Priority}/>
 
-    </div>
+        </div>
+
+    </>
 }
 
 export default App;
